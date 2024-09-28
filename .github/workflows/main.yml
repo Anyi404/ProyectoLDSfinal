@@ -37,7 +37,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-
     steps:
       - name: Download WAR artifact
         uses: actions/download-artifact@v3
